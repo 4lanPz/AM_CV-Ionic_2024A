@@ -1,6 +1,9 @@
+.pag1 {
+  background-color: #7DAAD0 !important;
+}
+
 .imagen {
-  height: 250px;
-  
+  height: 300px;
 }
 
 .titulo {
@@ -8,5 +11,17 @@
   justify-content: center;
   text-align: center;
   font-size: 30px;
-  
+}
+
+ion-card-title {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+ion-card,ion-label,ion-item {
+  background-color: #577399;
+}
+
+ion-title,ion-card-title,ion-card-subtitle,ion-card-content,h1,p{
+  color: black;
 }

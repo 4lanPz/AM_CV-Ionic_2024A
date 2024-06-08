@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+import { InfiniteScrollCustomEvent } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab2',
@@ -6,7 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  items : string[] = [];
 
   constructor() {}
+
+  ngOnInit() {
+    for (let i = 1; i < 51; i++) {
+      this.items.push(`Item ${i}`);
+    }
+  }
 
 }
