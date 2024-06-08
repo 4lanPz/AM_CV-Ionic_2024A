@@ -15,7 +15,8 @@
         <ion-col>
           <ion-card>
             <ion-card-header>
-              <ion-card-title style="text-align: center; font-size: 25px; color: black"
+              <ion-card-title
+                style="text-align: center; font-size: 25px; color: black"
                 >Estudios</ion-card-title
               >
             </ion-card-header>
@@ -50,8 +51,10 @@
           <ion-card>
             <!--  -->
             <ion-card-header>
-              <ion-card-title style="text-align: center; font-size: 25px; color: black"
-                >Habilidades</ion-card-title>
+              <ion-card-title
+                style="text-align: center; font-size: 25px; color: black"
+                >Habilidades</ion-card-title
+              >
             </ion-card-header>
 
             <ion-item style="text-align: justify">
@@ -79,7 +82,7 @@
     <ion-title class="titulo" style="font-size: 30px; font-weight: 600">
       Infinite Scroll
     </ion-title>
-    <div style="padding: 5%; padding-top: 2%;">
+    <div style="padding: 5%; padding-top: 2%">
       <ion-list>
         <ion-item *ngFor="let item of items; let index">
           <ion-avatar slot="start">
@@ -91,12 +94,15 @@
           <ion-label>{{ item }}</ion-label>
         </ion-item>
       </ion-list>
-      <ion-infinite-scroll>
-        <ion-infinite-scroll-content style="padding-top: 2%;"
-          loadingText="Espera un momento por favor..."
-          loadingSpinner="bubbles"
-        ></ion-infinite-scroll-content>
-      </ion-infinite-scroll>
+      <div style="background-color: #2b2b2b">
+        <ion-infinite-scroll>
+          <ion-infinite-scroll-content
+            style="padding-top: 2%"
+            loadingText="Espera un momento por favor..."
+            loadingSpinner="bubbles"
+          ></ion-infinite-scroll-content>
+        </ion-infinite-scroll>
+      </div>
     </div>
   </div>
 </ion-content>
