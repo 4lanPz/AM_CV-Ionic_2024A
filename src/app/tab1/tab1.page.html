@@ -4,31 +4,47 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div >
-    <div style="text-align: center;">
-      <ion-card>
-        <ion-card-header>
-          <ion-card-title style="font-size: 30px">Alan Perez</ion-card-title>
-          <ion-card-subtitle
-            >Estudiante Desarrollo de Software</ion-card-subtitle
-          >
-          <ion-card-subtitle>21 años</ion-card-subtitle>
-        </ion-card-header>
+<ion-content >
+  <ion-title class="titulo"> ¿Quien soy? </ion-title>
+  <div>
+    <div style="text-align: center">
+      <ion-card-header>
+        <ion-card style="padding: 5%;">
+          <ion-row>
+            <ion-col>
+              <ion-img
+                class="imagen"
+                src="https://github.com/4lanPz/4lanPz/assets/117743495/e27e89b8-0417-4a74-a661-9c134b9c21d9"
+                alt="Alan Perez"
+              ></ion-img>
+            </ion-col>
+            <ion-col>
+              <ion-card-title style="font-size: 30px"
+                >Alan Perez</ion-card-title
+              >
+              <ion-card-subtitle
+                >Estudiante Desarrollo de Software</ion-card-subtitle
+              >
+              <ion-card-subtitle>21 años</ion-card-subtitle>
 
-        <ion-card-content>
-          Soy tecnólogo en desarrollo de software al que le apasiona la
-          tecnología, la robotica, inteligencia artificial y los videojuegos.
-          Estoy constante búsqueda de conocimiento que me ayude a conseguir mis
-          metas.
-        </ion-card-content>
-      </ion-card>
+              <ion-card-content>
+                Soy tecnólogo en desarrollo de software al que le apasiona la
+                tecnología, la robotica, inteligencia artificial y los
+                videojuegos.
+                <br />
+                Estoy constante búsqueda de conocimiento que me ayude a
+                conseguir mis metas.
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-card-header>
     </div>
 
     <ion-grid>
       <ion-row>
         <ion-col>
-          <ion-card style="height:auto">
+          <ion-card style="height: auto">
             <ion-card-header>
               <ion-card-title style="text-align: center"
                 >Objetivos</ion-card-title
@@ -45,7 +61,7 @@
           </ion-card>
         </ion-col>
         <ion-col>
-          <ion-card style="height:auto">
+          <ion-card style="height: auto">
             <ion-card-header>
               <ion-card-title style="text-align: center"
                 >Pasatiempos</ion-card-title
@@ -64,11 +80,35 @@
       </ion-row>
     </ion-grid>
   </div>
-  <div>
-    <ion-img
-      style="height: 350px; padding-bottom: 50px"
-      src="https://github.com/4lanPz/4lanPz/assets/117743495/e27e89b8-0417-4a74-a661-9c134b9c21d9"
-      alt="Alan Perez"
-    ></ion-img>
+
+  <ion-title class="titulo"> Conocimientos </ion-title>
+
+  <div style="padding-bottom: 5%;">
+    <ion-card>
+      <ion-item>
+        <ion-label>
+          <h1>COMIL #10 ABDÓN CALDERON</h1>
+          <p>Primaria(2013)</p>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card>
+      <ion-item>
+        <ion-label>
+          <h1>COMIL #1 ELOY ALFARO</h1>
+          <p>Secundaria/Bachillerato (2020)</p>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card>
+      <ion-item>
+        <ion-label>
+          <h1>ESCUELA POLITÉCNICA NACIONAL</h1>
+          <p>5° Semestre Desarrollo de Software (Cursando)</p>
+        </ion-label>
+      </ion-item>
+    </ion-card>
   </div>
 </ion-content>
