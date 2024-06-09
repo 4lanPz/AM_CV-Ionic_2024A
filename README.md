@@ -2,6 +2,11 @@
 
 Hacer un CV básico utilizando Ionic, Visual Studio Code y Android Studio
 
+## Clonar
+```bash
+Git clone https://github.com/4lanPz/AM_CV-Ionic_2024A
+```
+
 ## Pasos
 
 - 1 Pre requisitos
@@ -9,7 +14,7 @@ Hacer un CV básico utilizando Ionic, Visual Studio Code y Android Studio
 Tener instalado Node.JS y Npm
 Tener un IDE para customizar nuestro proyecto en este caso Visual Studio Code
 Tener Android Studio configurado
-Estos se pueden descargar desde la pagina web oficial de dependiendo de el OS que estes utilizando.
+Estos se pueden descargar desde la página web oficial de dependiendo de el OS que estes utilizando.
 
 - 2 Empezar el proyecto
 
@@ -27,7 +32,7 @@ En este tambien debemos elegir que módulos vamos a ocupar, en este caso vamos a
 Al finalizar no es necesario tener una cuenta de Ionic, asi que eso podemos indicar que no y con eso nuestro
 proyecto se ha creado
 
-- 3 Navegar al directorio e intalación dependencias
+- 3 Navegar al directorio e instalación dependencias
 
 Utilizando la consola CMD podemos ir a el directorio de nuestro proyecto con 
 ```bash
@@ -55,7 +60,7 @@ nombreproyecto/
 ```
 
 Dentro de la carpeta app encontraremos las carpetas tab1, tab2 y tab3, estos son los directorios en los cuales
-estan el HTML, scss y ts, estos son necesarios para poder modificar la información, funcionalidad y estilos.
+están el HTML, scss y ts, estos son necesarios para poder modificar la información, funcionalidad y estilos.
 
 Cuando entremos a cualquiera de estas podremos cambiar los datos de esta, por lo que al entrar a la primera
 carpeta de tabs podemos editarla como si de un HTML se tratase pero con etiquetas de Ionic, estas se encuentran 
@@ -63,8 +68,8 @@ mejor explicadas y su funcionalidad en la página:
 ```bash
 https://ionicframework.com/docs/components
 ```
-Dependiendo de lo que querramos poner en nuestro HTML tambien les podemos agregar estilos, los cuales se deben
-agregar en el archivo con extención .scss, que es un archivo css de estilos.
+Dependiendo de lo que queramos poner en nuestro HTML también les podemos agregar estilos, los cuales se deben
+agregar en el archivo con extensión .scss, que es un archivo css de estilos.
 
 Esto se puede repetir en las demás carpetas de tabs para agregar la información en los HTML.
 
