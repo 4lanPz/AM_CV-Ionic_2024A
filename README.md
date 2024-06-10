@@ -102,6 +102,13 @@ Con esto se abrirá Android Studio y si ya tenemos un dispositivo configurado, p
 proyecto en android
 
 ## Capturas
+
+### Hosting
+
+https://proyecto-43391.web.app/tabs/tab1
+
+![image](https://github.com/4lanPz/AM_CV-Ionic_2024A/assets/117743495/4283d644-f207-4ab3-9735-8ed2e30d1c1d)
+
 ### Web
 ![image](https://github.com/4lanPz/AM_CV-Ionic_2024A/assets/117743495/80360dfb-3056-4dfd-8c2c-0f6c0c26620a)
 
